@@ -19,7 +19,7 @@ private:
 
     void InitializeApiSchema();
 
-    template <class ApiSetMapT, class ApiSetEntry, class HostArrayT, class HostEntryT>
+    template <class ApiSetMapT, class ApiSetEntryT, class HostArrayT, class HostEntryT>
     void InitializeApiSchemaInternal();
 
 };
