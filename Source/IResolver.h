@@ -11,7 +11,6 @@ public:
     static IResolver& GetInstance();
 
     IResolver();
-    ~IResolver();
 
     bool ResolveSchemaModule(const std::wstring &SchemaModuleName, std::vector<std::wstring> &RedirectedModuleName);
 

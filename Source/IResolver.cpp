@@ -13,10 +13,6 @@ IResolver::IResolver()
     InitializeApiSchema();
 }
 
-IResolver::~IResolver()
-{
-}
-
 bool IResolver::ResolveSchemaModule(const std::wstring &SchemaModuleName, std::vector<std::wstring> &RedirectedModuleName)
 {
     std::wstring SchemaName = Text::ToLower(SchemaModuleName);
