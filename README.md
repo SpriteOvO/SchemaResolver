@@ -3,7 +3,7 @@
 [![](https://img.shields.io/github/v/release/SpriteOvO/SchemaResolver)](https://github.com/SpriteOvO/SchemaResolver/releases)
 [![](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
-Windows schema module resolver tool.
+Windows schema module resolve tool.
 
 ## Preview
 ![](/Resource/Preview.png)
