@@ -30,8 +30,6 @@ struct TebT
     }
 };
 
-// Win10
-//
 
 namespace ApiSet
 {
