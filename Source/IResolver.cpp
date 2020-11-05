@@ -91,6 +91,6 @@ void IResolver::InitializeApiSchemaInternal()
             }
         }
 
-        _ApiSchema.emplace_back(std::make_pair(ModuleName, std::move(vHosts)));
+        _ApiSchema.emplace_back(std::make_pair(std::move(ModuleName), std::move(vHosts)));
     }
 }
